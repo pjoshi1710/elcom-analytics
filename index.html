@@ -1,13 +1,29 @@
-!DOCTYPE html
-html
-head
-  titlePower BI Dashboardtitle
-  link rel=stylesheet type=textcss href=styles.css
-  script src=httpsmicrosoft.github.ioPowerBI-JavaScriptdistpowerbi.jsscript
-head
-body
-  div id=reportContainerdiv
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elcom Systems Limited - Data Analytics</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="elcom_logo.png" alt="Elcom Systems Limited Logo">
+    <h1>Data Analytics Team</h1>
+  </header>
 
-  script src=script.jsscript
-body
-html
+  <div id="backgroundImage"></div>
+
+  <section id="about">
+    <h2>About Elcom Systems Limited</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend iaculis risus ac sagittis. Sed sit amet placerat justo, a sollicitudin quam. Suspendisse potenti. Sed tincidunt ante eu nunc elementum viverra.</p>
+    <p>Our data analytics team at Elcom Systems Limited is dedicated to leveraging advanced analytics techniques to gain insights from data. We strive to deliver data-driven solutions that empower decision-making and drive business growth.</p>
+  </section>
+
+  <section id="powerBI">
+    <h2>Power BI Dashboards</h2>
+    <div id="powerBIDashboard"></div>
+  </section>
+
+  <script src="https://microsoft.github.io/PowerBI-JavaScript/dist/powerbi.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
